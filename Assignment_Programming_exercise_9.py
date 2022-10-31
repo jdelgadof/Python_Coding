@@ -1,5 +1,7 @@
 import random
 
+# 1 Exercise
+
 
 class Car:
 
@@ -9,9 +11,11 @@ class Car:
         self.current_speed = 0
         self.t_distance = 0
 
+# 2 Exercise
     def accel(self, acceleration):
         self.current_speed = min(max(self.current_speed+acceleration, 0), self.max_speed)
 
+# 3 Exercise
     def drive(self, time):
         self.t_distance += self.current_speed * time
 
@@ -33,6 +37,8 @@ car_1.accel(60)
 car_1.drive(1.5)
 print(f"The distance travelled is {car_1.t_distance}")
 """
+# 4 Exercise
+
 List_cars = []
 for i in range(10):
     List_cars.append(Car("ABC-"+str(i+1), random.randint(100, 200)))
