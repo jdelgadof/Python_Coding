@@ -1,5 +1,5 @@
-# first one
-"""
+# exercise 11-1
+
 class Publication:
     def __init__(self, name):
         self.name = name
@@ -35,8 +35,9 @@ publications.append(Book("Compartment No.9", "Roosa Liksom", 192))
 
 for x in publications:
     x.print_info()
-"""
-# Second one
+
+# exercise 11-2
+
 from Assignment_Programming_exercise_9 import Car
 
 
@@ -54,7 +55,7 @@ class GasolineCar(Car):
 
 carElectric = ElectricCar("ABC123", 180, 52.5)
 carGas = GasolineCar("CBA321", 165, 32.3)
-carGas.accel(50)
+carGas.accel(100)
 carElectric.accel(50)
 carGas.drive(3)
 carElectric.drive(3)
