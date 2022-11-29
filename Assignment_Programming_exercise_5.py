@@ -28,14 +28,14 @@ print(five)
 
 numero = int(input("Number: "))
 serPrimo = True
-for n in range(2,numero):
+for n in range(2, numero):
     if numero % n == 0:
         serPrimo = False
         break
 if serPrimo:
-    print(numero,"It is a prime number")
+    print(numero, "It is a prime number")
 else:
-    print(numero,"It is not a prime number")
+    print(numero, "It is not a prime number")
 
 # 5.4 Five Cities
 
