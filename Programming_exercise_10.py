@@ -60,7 +60,7 @@ B1.fire_alarm()
 
 # Exercise 4
 
-from Assignment_Programming_exercise_9 import Car
+from Programming_exercise_9 import Car
 import random
 
 

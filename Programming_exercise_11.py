@@ -38,7 +38,7 @@ for x in publications:
 
 # exercise 11-2
 
-from Assignment_Programming_exercise_9 import Car
+from Programming_exercise_9 import Car
 
 
 class ElectricCar(Car):
